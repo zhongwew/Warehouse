@@ -1,7 +1,7 @@
 # Warehouse
 It's a simulated warehouse where users could choose items and routes will be generated automatically.
 
-#Introduction
+# Introduction
 
 This is a simulated warehouse developed using JAVA. 
 
@@ -13,15 +13,15 @@ The GUI is built up using JAVA FX.
 
 It's a real-world application of Travelling Salesman Problem.
 
-#Algorithm
+# Algorithm
 
 The core of this system is that I implemented multiple algorithm to support route generating. 
 
-##Nearest Neighbor
+## Nearest Neighbor
 
 Intuitively, Nearest Neighbor(NN) is to find the nearest items every time. It could certainly give a solution no matter how complicated the order is. However, sometimes the solution is not efficient enough.
 
-##Branch and Bound
+## Branch and Bound
 
 Branch and Bound(BB) is a heuristic algorithm which set an upperbound and lowerbound for the order. While searching through the nodes in the network, the system will keep updating the lower bound until meet the upperbound.
 
